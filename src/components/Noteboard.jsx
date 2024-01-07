@@ -1,9 +1,6 @@
 import { useState } from "react";
 import Note from "./Note";
 
-const arr = new Array(10);
-arr.fill(10);
-
 function Noteboard() {
   const [notes, setNotes] = useState([]);
 
